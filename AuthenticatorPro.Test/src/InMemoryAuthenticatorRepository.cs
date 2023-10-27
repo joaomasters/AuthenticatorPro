@@ -24,6 +24,7 @@ namespace AuthenticatorPro.Test
             _authenticators.Add(item.Clone());
             return Task.CompletedTask;
         }
+        
 
         public Task<Authenticator> GetAsync(string id)
         {
